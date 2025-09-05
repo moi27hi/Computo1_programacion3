@@ -7,16 +7,11 @@ class operacionesNumericas:
         self.numero2 = numero2
 
 
-    def sumar(self):
-        
-        return self.numero1 + self.numero2
-    
-    def imprimir_resultado():
-        print(f"El resultado de la suma es {operacionesNumericas.sumar()}")
+num1 = 10
+num2 = 20
 
-
-num1 = operacionesNumericas(5,6)
-num1.imprimir_resultado()
+suma = num1+ num2
+print(suma)
 
 
 
