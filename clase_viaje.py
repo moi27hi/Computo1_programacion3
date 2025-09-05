@@ -8,3 +8,8 @@ class Viaje:
 
     def __str__(self):
         return f"Ruta: {self.ruta} | Costo: ${self.costo:.2f} | Tiempo: {self.tiempo} min"
+    
+
+print('Hi')
+
+
