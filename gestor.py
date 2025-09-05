@@ -1,5 +1,5 @@
 # gestor.py
-from viaje import Viaje
+from clase_viaje import Viaje
 
 class GestorViajes:
     def __init__(self):
@@ -20,3 +20,5 @@ class GestorViajes:
         print("\n--- RESUMEN SEMANAL ---")
         print(f"Gasto total: ${total_costo:.2f}")
         print(f"Tiempo total: {total_tiempo} minutos")
+
+        
